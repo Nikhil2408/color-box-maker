@@ -1,0 +1,35 @@
+.modal{
+    position: fixed;
+    margin-top: 200px;
+    width: 300px;
+    background-color: brown;
+}
+
+.header h2{
+    padding: 1rem;
+}
+
+.content{
+    padding: 1rem;
+}
+
+.action{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.action button{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.backdrop{
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,8 @@
+.Boxes{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 95vw;
+    overflow-x: hidden;
+}

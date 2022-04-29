@@ -1,0 +1,30 @@
+.BoxMakerForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.BoxMakerForm label{
+    font-size: 1.1rem;
+    margin: 0.5rem 0rem;
+    text-shadow: 3px 3px 5px brown;
+}
+
+.BoxMakerForm input, select{
+    outline: none;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.BoxMakerForm button{
+    margin: 1.2rem 0rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.BoxMakerForm button:hover{
+    background-color: brown;
+    color: white;
+}
