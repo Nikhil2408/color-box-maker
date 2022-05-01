@@ -34,14 +34,14 @@ function BoxMakerForm(props){
             setErrorDetails({
                 status: true,
                 title: "Invalid Height or Width",
-                message: "Height or Width cannot be negative"
+                message: "Height and Width cannot be negative"
             })
         }
         else if(userInput.height.length === 0 || userInput.width.length === 0 || userInput.bgColor === "noColor"){
             setErrorDetails({
                 status: true,
                 title: "Fields cannot be Empty",
-                message: "Please provide some input to height, width or background color field"
+                message: "Please provide some input to height, width and background color field"
             })
         }
         else{
